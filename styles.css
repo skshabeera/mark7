@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Inter&family=Lato:ital,wght@0,900;1,400;1,700;1,900&family=Lora:ital,wght@0,600;1,500;1,600&family=M+PLUS+1:wght@700;900&family=Montagu+Slab:wght@400;700&family=Prociono&family=Shippori+Antique+B1&family=Source+Sans+Pro&family=Tinos:ital,wght@0,700;1,400;1,700&family=Ubuntu:ital@1&display=swap');
+
+
+
+body{
+    font-family: 'Prociono', serif;
+    background-color: aquamarine;
+    text-align: center;
+    margin: auto;
+    max-width: 600px;
+    padding: 2rem;
+    text-align: center
+    
+}
+
+
+
+textarea {
+    min-height: 100px;
+    min-width: 500px;
+    margin-bottom: 1rem;
+    font-family: 'Indie Flower', cursive;
+    font-size: large;
+}
+
+#btn-translate {
+    background-color: var(--primary);
+    color: var(--textColor);
+    padding: 1rem;
+    min-width: 140px;
+    border: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bolder;
+    font-size: large;
+    cursor: pointer;
+
+
+    border: 1px solid lightgrey;
+    background-color: white;
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 10px 10px 10px 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#btn-translate:hover{
+    background-color: blueviolet;
+}
+
+
+#translate-output{
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    padding: 1rem;
+    overflow: scroll;
+    margin: auto;
+    background-color:whitesmoke; ;
+    text-align:center ;
+}
