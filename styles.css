@@ -4,12 +4,13 @@
 
 body{
     font-family: 'Prociono', serif;
-    background-color: aquamarine;
+    background-color:orchid;
     text-align: center;
     margin: auto;
     max-width: 600px;
     padding: 2rem;
-    text-align: center
+    text-align: center;
+
     
 }
 
@@ -21,11 +22,12 @@ textarea {
     margin-bottom: 1rem;
     font-family: 'Indie Flower', cursive;
     font-size: large;
+
 }
 
 #btn-translate {
-    background-color: var(--primary);
-    color: var(--textColor);
+    background-color:var(--text-color);
+    color:var(--text-color);
     padding: 1rem;
     min-width: 140px;
     border: 1rem;
@@ -38,15 +40,16 @@ textarea {
 
 
     border: 1px solid lightgrey;
-    background-color: white;
+    background-color:whitesmoke;
     margin-top: 20px;
     height: 50px;
     border-radius: 10px 10px 10px 10px;
     padding-top: 20px;
     padding-left: 20px;
+
 }
 #btn-translate:hover{
-    background-color: blueviolet;
+    background-color:orangered;
 }
 
 
@@ -59,4 +62,5 @@ textarea {
     margin: auto;
     background-color:whitesmoke; ;
     text-align:center ;
+    
 }
